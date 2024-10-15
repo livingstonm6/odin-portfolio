@@ -14,6 +14,7 @@ body{
 
 .middle{
     grid-row: 2 / 3;
+    padding: 0 20%;
 }
 
 .bottom{
@@ -33,7 +34,7 @@ body{
 .projects-container{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 16px;
 }
 
